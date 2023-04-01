@@ -31,9 +31,7 @@ public void RadioButton() {
 	{
 		WebElement local_login = Login.get(i);
 		String xpath = local_login.getDomAttribute("Value");
-		
-		System.out.println("the value is " + xpath);
-	}
-	
+		System.out.println("the value is " + xpath);	
+	}	
 }
 }
